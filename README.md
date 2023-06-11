@@ -1,4 +1,4 @@
-# Performance-Matrix-&-Decision-Tree
+# Performance-Matrix-&-Decision-Tree-Classifier
 
 In pattern recognition, the performance of a classifier can be evaluated using various metrics that measure its accuracy and
 effectiveness in recognizing and classifying different patterns. Some common metrics-
