@@ -39,3 +39,61 @@ the actual value is Yes!
 the actual value is No!
 
 ![image](https://github.com/TITHI-KHAN/Performance-Matrix-and-Decision-Tree/assets/65033964/8e82e583-f14f-4997-aef4-e5a4de3e0359)
+
+# Accuracy / Recognition Rate
+
+Accuracy = (TP + TN ) / (TP + FP + TN + FN)
+
+▪ Condition positive (P).
+▪ The number of real positive cases in the data.
+
+▪ Condition negative (N).
+▪ The number of real negative cases in the data.
+
+# Precision or Positive Predictive Value (PPV)
+
+PPV = True Positive / (True Positive + False Positive)
+
+Precision = tp / ( tp + fp )
+
+# Sensitivity, Recall, Hit Rate, or True Positive Rate (TPR)
+
+TPR = True Positive / (True Positive + False Negative)
+
+# False Positive Rate (FPR) or 1-Specificity
+
+FPR = False Positive / (False Positive + True Negative)
+
+# Specificity, Selectivity or True Negative Rate (TNR)
+
+Specificity = True Negative / (True Negative + False Positive)
+
+# Threat Score (TS) or Critical Success Index (CSI)
+
+TS/CSI = True Positive / (True Positive + False Negative + False Positive )
+
+# False Discovery Rate (FDR)
+
+False Discovery Rate = False Positive / (True Positive + False Positive )
+
+# Harmonic Mean, F-Measure
+
+F-measure: harmonic mean of recall and precision:
+= ( 2 * Precision * Recall ) / (Precision + Recall)
+
+# ROC & AUC Curve
+
+Receiver Operating Characteristic (ROC): Since, TPR is equivalent to Sensitivity and FPR is equal to 1 − specificity, the ROC graph is sometimes called the sensitivity vs (1 − specificity) plot. 
+
+![image](https://github.com/TITHI-KHAN/Performance-Matrix-and-Decision-Tree/assets/65033964/f6070f78-6a5a-4201-8f22-c9d3648f2848)
+
+Receiver Operating Characteristic (ROC): Since, TPR is equivalent to Sensitivity and FPR is equal to 1 − specificity, the ROC graph is sometimes called the sensitivity vs (1 − specificity) plot.
+
+![image](https://github.com/TITHI-KHAN/Performance-Matrix-and-Decision-Tree/assets/65033964/3e8bc5b6-7788-497c-81cf-e0e7dc58875f)
+
+The Area Under the Curve (AUC) measures a classifier’s ability to differentiate between classes and is used as a summary of the ROC curve. The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.
+
+▪ In general, an AUC of 0.5 suggests no discrimination (like the ability to diagnose patients with and without the disease or condition based on the test)
+▪ 0.7 to 0.8 is considered acceptable
+▪ 0.8 to 0.9 is considered excellent, and
+▪ more than 0.9 is considered outstanding.
