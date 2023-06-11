@@ -50,7 +50,7 @@ Accuracy = (TP + TN ) / (TP + FP + TN + FN)
 ▪ Condition negative (N).
 ▪ The number of real negative cases in the data.
 
-# Precision or Positive Predictive Value (PPV)
+# Precision / Positive Predictive Value (PPV)
 
 PPV = True Positive / (True Positive + False Positive)
 
