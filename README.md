@@ -81,6 +81,10 @@ False Discovery Rate = False Positive / (True Positive + False Positive )
 F-measure: harmonic mean of recall and precision:
 = ( 2 * Precision * Recall ) / (Precision + Recall)
 
+The harmonic mean is a type of average that is calculated as the reciprocal of the arithmetic mean of the reciprocals of a set of numbers. It is commonly used to calculate the average of rates, proportions, or ratios.
+
+For example, if you have a set of values representing the speeds of different cars, and you want to calculate the average speed, you can use the harmonic mean to account for the fact that higher speeds have a greater impact on the overall average.
+
 # ROC & AUC Curve
 
 Receiver Operating Characteristic (ROC): Since, TPR is equivalent to Sensitivity and FPR is equal to 1 − specificity, the ROC graph is sometimes called the sensitivity vs (1 − specificity) plot. 
