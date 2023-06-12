@@ -98,6 +98,9 @@ Receiver Operating Characteristic (ROC): Since, TPR is equivalent to Sensitivity
 The Area Under the Curve (AUC) measures a classifier’s ability to differentiate between classes and is used as a summary of the ROC curve. The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes.
 
 ▪ In general, an AUC of 0.5 suggests no discrimination (like the ability to diagnose patients with and without the disease or condition based on the test)
+
 ▪ 0.7 to 0.8 is considered acceptable
+
 ▪ 0.8 to 0.9 is considered excellent, and
+
 ▪ more than 0.9 is considered outstanding.
